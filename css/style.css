@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@media  (max-width:600px){
+    .navbar-container{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .nav{
+        display: flex;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+
+    .main-container{
+        margin-top: 2.5rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .main-container-top{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        background: url("https://image.freepik.com/free-vector/gradient-background-green-tones_23-2148357101.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 40%;
+        display: flex;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+body{
+    background:url("https://image.freepik.com/free-vector/geometric-diagonal-shapes-white-gray-background_1017-25102.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    flex: 3;
+    font-weight: 700;
+}
+.nav{
+    flex: 4;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.nav ul a{
+    text-decoration: none;
+}
+
+.main-container{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.main-container-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: url("https://image.freepik.com/free-vector/gradient-background-green-tones_23-2148357101.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 40%;
+    display: flex;
+}
+
+.profile-left{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 6rem;
+}
+.profile-left img{
+    border-radius: 15px;
+}
+.profile-right{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: center;
+    padding-top: 2rem;
+}
+.profile-right h1{
+    font-size: 55px;
+}
+
+.main-container-middle{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 2em;
+}
+.main-container-middle-left{
+    max-width: 40%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+    line-height: 1.5rem;
+}
+
+.main-container-middle-right{
+    max-width: 60%;
+    flex-grow: 2;
+    display: flex;
+}
+
+.btn-download{
+    width: 255px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #bdb8b8;
+}
+.btn-download:hover{
+    background-color: #e0dada;
+}
+.item1{
+    flex-grow: 2;
+    margin-left: 3rem;
+}
+.item1 li{
+    list-style-type:none;
+    line-height: 2em;
+}
+.item2{
+    flex-grow: 5;
+}
+
+.item2 li{
+    line-height: 2em;
+    color: gray;
+    list-style-type: none;
+}
